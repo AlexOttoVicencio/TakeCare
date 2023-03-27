@@ -1,0 +1,21 @@
+h1,h2,h3,h4,h6,p{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*---------Header ------------------------ */
+.main-header{
+    display: flex;
+    align-items: center;
+    
+}
+body{
+    margin: 0;
+}
+.header-button{
+    
+    margin-left: auto;
+    row-gap: 10px;
+    
+}
+
+/*--------------------------------- */
