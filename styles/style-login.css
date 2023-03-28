@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background: url(https://api.time.com/wp-content/uploads/2014/11/old-man-old-age-happy.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.form-signup {
+    margin: 0 auto;  
+}
+
+h1 {
+    text-align: center;
+    color: rgb(50, 90, 110);
+    padding-bottom: 25px;
+}
+
+.form-group {
+    padding: 10px;
+}
+
+p {
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 50px 50px;
+}
+
+.button {
+    border: none;
+    width: 100%;
+    color: white;
+    background-color: rgb(50, 90, 110);
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;    
+}
