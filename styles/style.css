@@ -1,21 +1,15 @@
-h1,h2,h3,h4,h6,p{
-    font-family: 'Poppins', sans-serif;
+.index-main{
+    background-color: #E8ECF1;
+    padding-top: 6em;
+    padding-bottom: 4em;
+}
+.navbar-custom{
+    background-color: #B5CFD8;
+}
+.index-button{
+    margin: 3em;
 }
 
-/*---------Header ------------------------ */
-.main-header{
-    display: flex;
-    align-items: center;
-    
+.custom-button{
+    background-color: red;
 }
-body{
-    margin: 0;
-}
-.header-button{
-    
-    margin-left: auto;
-    row-gap: 10px;
-    
-}
-
-/*--------------------------------- */
