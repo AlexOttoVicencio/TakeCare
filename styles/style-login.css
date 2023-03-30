@@ -15,6 +15,14 @@ body {
     background-attachment: fixed;
 }
 
+ul {
+    list-style: none;
+}
+
+.row {
+    display: flex;
+}
+
 .form-signup {
     margin: 0 auto;  
 }
@@ -27,6 +35,7 @@ h1 {
 
 .form-group {
     padding: 10px;
+    display: flex;
 }
 
 p {
@@ -37,7 +46,7 @@ p {
     background-color: white;
     border: 1px solid;
     border-radius: 15px;
-    padding: 50px 50px;
+    padding: 80px 80px 25px 25px;
 }
 
 .button {
@@ -48,4 +57,17 @@ p {
     font-size: 20px;
     padding: 10px;
     margin: 10px;    
+}
+
+.material-symbols-outlined {
+    padding: 10px;
+    background: gainsboro;
+}
+
+form {
+    padding-right: 40px;
+}
+
+.tacbox {
+    text-align: center;
 }
