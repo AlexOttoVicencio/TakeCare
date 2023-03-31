@@ -6,7 +6,8 @@ h3,
 h4,
 h5,
 h6,
-p{
+p,
+a{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -31,4 +32,16 @@ p{
 .main-footer{
     background-color: #AAAAAA;
     color:#F4F9F9
+}
+
+.footer-links{
+    color: #F4F9F9;
+    text-decoration: none;
+}
+
+.footer-columns{
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 2em;
+    padding-bottom:2em;
 }
