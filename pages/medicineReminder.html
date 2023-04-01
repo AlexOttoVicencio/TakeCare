@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/styles/style.css">
+        <link rel="stylesheet" href="/styles/simplePages.css">
+        <link rel="stylesheet" href="/styles/medicineReminder.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    </head>
+    <body>
+        <header class="index-header">            
+            <nav class="navbar navbar-expand-lg  navbar-custom">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><h1><strong>TakeCare</strong></h1></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link " href="product.html"><strong>Producto</strong> </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="login.html"><strong>Entrar</strong></a>
+                      </li>                    
+                      <li class="nav-item">
+                        <a class="nav-link" href="register.html"><strong>Registrate</strong></a>
+                      </li> 
+                    </ul>
+                  </div>
+                </div>
+              </nav>            
+        </header>
+
+        <h1>Medicamentos</h1>
+        <h3>Día Mes Año</h3>
+        <main class="index-main container-fluid">
+            <div class="container " >
+                <form class="w-75">
+                    <h1 class="text-center">Agregar Medicamento</h1>
+                    <ul>
+                        <li>
+                            <div class="mb-3">
+                                <label class="form-label">Medicamento</label>
+                                <input type="text" class="form-control" placeholder="Ej: Paracetamol">
+                            </div>                          
+                        </li>
+                        <li>
+                            <label>Tipo de medicamento</label>
+                            <select class="form-select">
+                                <option selected disabled>Seleccione el tipo de medicamento</option>
+                                <option value="1">Comprimido</option>
+                                <option value="2">Cápsula</option>
+                                <option value="3">Inyección</option>
+                                <option value="3">Jarabe</option>
+                                <option value="3">Crema</option>
+                                <option value="3">Otro</option>
+                            </select>
+                        </li>
+                        <li>
+                            <div class="mb-3">
+                                <label class="form-label">Dosis</label>
+                                <input type="text" class="form-control" placeholder="Ej: 1 comprimido, 50 ml">
+                            </div> 
+                        </li>
+                        <li>
+                            <div class="mb-3">
+                                <label class="form-label">Frecuencia</label>
+                                <input type="text" class="form-control" placeholder="Ej: Una vez al día">
+                            </div> 
+                        </li>
+                        <li>
+                            <div class="mb-3">
+                                <label class="form-label">Duración</label>
+                                <input type="text" class="form-control" placeholder="Ej: Una semana">
+                            </div> 
+                        </li>
+                        <li>
+                            <div class="mb-3">
+                                <label class="form-label">Observaciones del médico</label>
+                                <textarea class="form-control" rows="3"></textarea>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="submit" value="Agregar medicamento" class="button">
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </main>        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    </body>
+</html>

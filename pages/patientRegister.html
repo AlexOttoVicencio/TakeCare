@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/styles/style.css">
+        <link rel="stylesheet" href="/styles/simplePages.css">
+        <link rel="stylesheet" href="/styles/patientRegister.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    </head>
+    <body>
+        <header class="index-header">            
+            <nav class="navbar navbar-expand-lg  navbar-custom">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html"><h1><strong>TakeCare</strong></h1></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link " href="product.html"><strong>Producto</strong> </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="login.html"><strong>Entrar</strong></a>
+                      </li>                    
+                      <li class="nav-item">
+                        <a class="nav-link" href="register.html"><strong>Registrate</strong></a>
+                      </li> 
+                    </ul>
+                  </div>
+                </div>
+              </nav>            
+        </header> 
+        
+        <main class="index-main container-fluid">
+            <div class="container">
+                <h1 class="text-center">Registro de paciente</h1>
+                <form class="w-75">
+                    <ul>
+                        <li>                                                       
+                            <div id="input" class="form-group">
+                                <label>Nombre Paciente</label>
+                                <input class="form-control" type="text" placeholder="Ingrese el nombre completo del paciente" required>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="input" class="form-group">
+                                <label>Edad</label>
+                                <input class="form-control" type="text" placeholder="Ingrese la edad del paciente" required>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="input" class="form-group">
+                                <label>Sexo</label>
+                                <select class="form-select">
+                                    <option selected disabled>Seleccione el sexo del paciente</option>
+                                    <option value="1">Masculino</option>
+                                    <option value="2">Femenino</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="input" class="form-group">
+                                <label>Domicilio</label>
+                                <input class="form-control" type="text" placeholder="Ingrese el domicilio del paciente" required>
+                            </div>
+                        </li>
+                        <li>
+                            <label class="form-label">Diagnóstico</label>
+                            <textarea class="form-control" rows="3"></textarea>
+                        </li>
+                        <li>
+                            <label class="form-label">Tratamiento</label>
+                            <textarea class="form-control" rows="3"></textarea>
+                        </li>
+                        <li>
+                            <label class="form-label">Observaciones</label>
+                            <textarea class="form-control" rows="3"></textarea>
+                        </li>
+                        <br>
+                        <li>
+                            <input type="submit" value="Registrar paciente" class="button">
+                        </li>                                
+                    </ul>
+                </form>
+            </div>
+        </main>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
