@@ -27,3 +27,35 @@ a{
 .carousel-images{
     width: 300px;
 }
+
+.card-product-image{
+    width: 50rem;
+}
+
+.index-main-cards{
+    background-color: #F4F9F9;
+    padding-bottom: 6em;
+
+}
+span{
+    white-space: pre;
+
+    
+}
+
+.main-footer{
+    background-color: #AAAAAA;
+    color:#F4F9F9
+}
+
+.footer-links{
+    color: #F4F9F9;
+    text-decoration: none;
+}
+
+.footer-columns{
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 2em;
+    padding-bottom:2em;
+}
