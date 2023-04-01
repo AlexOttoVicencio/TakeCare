@@ -1,0 +1,29 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a{
+    font-family: 'Poppins', sans-serif;
+}
+
+.index-main{
+    background-color: #F4F9F9;
+    padding-top: 6em;
+    padding-bottom: 4em;
+}
+.navbar-custom{
+    background-color: #CCF2F4;
+}
+
+.index-main{
+    background-color: #F4F9F9;
+    padding-top: 6em;
+    padding-bottom: 4em;
+}
+
+.carousel-images{
+    width: 300px;
+}
