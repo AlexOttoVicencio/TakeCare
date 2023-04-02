@@ -11,14 +11,14 @@ TakeCare busca cumplir con los objetivos de desarrollo sostenible propuestos por
 
 Análisis de Funcionalidades
 
-- Se tendrá una página dedicada al registro de un hogar o institución que cuide de adultos mayores.
 
-- Se podrá usar una página con información de los residentes.
+-Se tendrá una página dedicada al registro de un profesional medico
 
-- Las personas que trabajan en una institución van a poder registrarse y se almacenarán sus datos. 
+-Se podrá usar una página con información básica de los pacientes como:rut, edad y otros datos de vida.
 
-- Se van a poder almacenar información recurrente acerca de los pacientes tal como: signos vitales, medicación y actividades.
+-Almacenar información de los pacientes como:medicamentos, dolor, terapias . 
 
-- En el caso de tener alguna enfermedad se puede guardar el tratamiento y progreso de los pacientes a través de este.
+-Se van a poder almacenar información recurrente acerca de los pacientes tal como: signos vitales, medicación y actividades.
 
-- Para informar a las instituciones que usan el servicio se va tener una pagina que muestre los términos y condiciones del servicio web.
+-En el caso de tener alguna enfermedad se puede guardar el tratamiento y progreso de los pacientes a través de este.
+
