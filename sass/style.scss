@@ -1,0 +1,46 @@
+$navbar-color:#CCF2F4;
+$content-color:#F4F9F9;
+$footer-color:#AAAAAA;
+
+
+
+
+
+h1,h2,h3,h4,h5,h6,p,a{
+    font-family: 'Poppins', sans-serif;
+}
+
+.index-main{
+    background-color: $content-color;
+    padding-top: 6em;
+    padding-bottom: 4em;
+}
+.navbar-custom{
+    background-color:$navbar-color;
+}
+.index-button{
+    margin: 3em;
+
+}
+
+.custom-button{
+    background-color: #A4EBF3;
+}
+
+.main-footer{
+    background-color: $footer-color;
+    color: #F4F9F9;
+    
+}
+
+.footer-links{
+    color: #F4F9F9;
+    text-decoration: none;
+}
+
+.footer-columns{
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 2em;
+    padding-bottom:2em;
+}
