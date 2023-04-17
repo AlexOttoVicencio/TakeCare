@@ -70,9 +70,19 @@
                             </div>
                         </li>
                         <li>
-                            <div class="form-group">
-                                <label><span class="material-symbols-outlined">house</span></label>
-                                <input class="form-control" type="text" placeholder="Ingrese su rol">
+                            <div id="input" class="form-group">
+                                <label><span class="material-symbols-outlined">health_and_safety</span></label>
+                                <select class="form-select">
+                                    <option selected disabled>Seleccione su profesión</option>
+                                    <option value="1">Médico</option>
+                                    <option value="2">Enfermero</option>
+                                    <option value="3">Odontólogo</option>
+                                    <option value="4">Nutricionista</option>
+                                    <option value="5">Psicólogo</option>
+                                    <option value="6">Kinesiólogo</option>
+                                    <option value="7">Fisioterapeuta</option>
+                                    <option value="8">Terapeuta Ocupacional</option>
+                                </select>
                             </div>
                         </li>
                         <li>
@@ -88,7 +98,7 @@
                             </div>
                         </li>
                         <li>
-                            <input type="submit" value="Crear cuenta" class="button">
+                            <button type="submit" class="button" id="register-button">Crear cuenta</button>
                             <div class="tacbox">
                                 <input id="checkbox" type="checkbox"/>
                                 <label for="checkbox">Acepto las <a href="" link="">Condiciones de Uso</a> y <a href="" link="">Política de privacidad</a></label>
