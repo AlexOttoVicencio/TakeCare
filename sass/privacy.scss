@@ -1,14 +1,10 @@
-
 /*Css of landing page */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a{
+
+h1, h2, h3, h4, h5, h6, p, a{
     font-family: 'Poppins', sans-serif;
+}
+h1{
+    text-align: center;
 }
 
 
@@ -31,7 +27,9 @@ a{
 
 .main-footer{
     background-color: #AAAAAA;
-    color:#F4F9F9
+    color:#F4F9F9;
+    margin-top: auto;
+
 }
 
 .footer-links{
@@ -44,4 +42,20 @@ a{
     padding-right: 5em;
     padding-top: 2em;
     padding-bottom:2em;
+}
+
+.privacy div{
+    margin: auto;
+    height: auto;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    min-height: 60vh;
+    background-color: rgb(255, 253, 253);
+    font-size: larger; 
+  
+}
+.intro{
+    font-style: italic;
+    font-size: large; 
 }

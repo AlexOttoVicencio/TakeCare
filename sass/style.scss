@@ -12,7 +12,7 @@ h1,h2,h3,h4,h5,h6,p,a{
 
 .index-main{
     background-color: $content-color;
-    padding-top: 6em;
+    padding-top: 4em;
     padding-bottom: 4em;
 }
 .navbar-custom{
@@ -29,12 +29,12 @@ h1,h2,h3,h4,h5,h6,p,a{
 
 .main-footer{
     background-color: $footer-color;
-    color: #F4F9F9;
+    color: $content-color;
     
-}
+} 
 
 .footer-links{
-    color: #F4F9F9;
+    color: $content-color;
     text-decoration: none;
 }
 
@@ -44,3 +44,4 @@ h1,h2,h3,h4,h5,h6,p,a{
     padding-top: 2em;
     padding-bottom:2em;
 }
+
