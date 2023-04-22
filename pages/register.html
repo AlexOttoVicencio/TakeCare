@@ -14,8 +14,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">  
-   
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>        
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+        <script src="/js/validationsJquery.js"></script>
+        <script src="/js/messages_es.js"></script>       
         <body>
         <header class="index-header">            
             <nav class="navbar navbar-expand-lg  navbar-custom">
@@ -45,20 +48,26 @@
             <h1>TakeCare</h1>
             <p>Regístrate</p>
             <section>
-                <form>
+                <form class="needs-validation" novalidate>
                     <ul>
                         <li>                                                       
                             <div class="row">                               
                                 <div class="col">
                                     <div id="input" class="form-group">
                                         <label><span class="material-symbols-outlined">person</span></label>
-                                        <input class="form-control" type="text" placeholder="Ingrese su nombre" required>
+                                        <input class="form-control" type="text" id="nombre" placeholder="Ingrese su nombre" name="nombre">                                                                           
                                     </div>
+                                    <div>
+                                        <label id="nombre-error" class="is-invalid" for="nombre"></label>
+                                    </div>                                
                                 </div>                                
                                 <div class="col">
                                     <div class="form-group">
                                         <label><span class="material-symbols-outlined">person</span></label>
-                                        <input class="form-control" type="text" placeholder="Ingrese su apellido" required>
+                                        <input class="form-control" type="text" id="apellido" placeholder="Ingrese su apellido" name="apellido">
+                                    </div>
+                                    <div>
+                                        <label id="apellido-error" class="is-invalid" for="apellido"></label>
                                     </div>
                                 </div>
                             </div>
@@ -66,13 +75,16 @@
                         <li>                                                    
                             <div class="form-group">
                                 <label><span class="material-symbols-outlined">email</span></label>
-                                <input class="form-control" type="email" placeholder="Ingrese su correo electrónico" required>
+                                <input class="form-control" type="email" id="correo" placeholder="Ingrese su correo electrónico" name="correo">                                
+                            </div>
+                            <div>
+                                <label id="correo-error" class="is-invalid" for="correo"></label>
                             </div>
                         </li>
                         <li>
                             <div id="input" class="form-group">
                                 <label><span class="material-symbols-outlined">health_and_safety</span></label>
-                                <select class="form-select">
+                                <select class="form-select" id="profesion" name="profesion">
                                     <option selected disabled>Seleccione su profesión</option>
                                     <option value="1">Médico</option>
                                     <option value="2">Enfermero</option>
@@ -82,31 +94,46 @@
                                     <option value="6">Kinesiólogo</option>
                                     <option value="7">Fisioterapeuta</option>
                                     <option value="8">Terapeuta Ocupacional</option>
-                                </select>
+                                </select>                                
+                            </div>
+                            <div>
+                                <label id="profesion-error" class="is-invalid" for="profesion"></label>
                             </div>
                         </li>
                         <li>
                             <div class="form-group">
                                 <label><span class="material-symbols-outlined">key</span></label>
-                                <input class="form-control" type="password" placeholder="Ingrese su contraseña" required>
+                                <input class="form-control" type="password" id="pass" placeholder="Ingrese su contraseña" name="pass">
+                            </div>
+                            <div>
+                                <label id="pass-error" class="is-invalid" for="pass"></label>
                             </div>
                         </li>
                         <li>
                             <div class="form-group">
                                 <label><span class="material-symbols-outlined">key</span></label>
-                                <input class="form-control" type="password" placeholder="Repita su contraseña" required>
+                                <input class="form-control" type="password" id="repass" placeholder="Repita su contraseña" name="repass">
+                            </div>
+                            <div>
+                                <label id="repass-error" class="is-invalid" for="repass"></label>
                             </div>
                         </li>
                         <li>
                             <button type="submit" class="button" id="register-button">Crear cuenta</button>
-                            <div class="tacbox">
-                                <input id="checkbox" type="checkbox"/>
-                                <label for="checkbox">Acepto las <a href="" link="">Condiciones de Uso</a> y <a href="" link="">Política de privacidad</a></label>
+                        </li>
+                        <li>
+                            <div>
+                                <label id="condiciones-error" class="is-invalid" for="condiciones"></label>
                             </div>
-                            </br>
+                            <div class="tacbox">
+                                <input type="checkbox" id="condiciones" name="condiciones"/>
+                                <label>Acepto las <a href="privacyPolicy.html" link="">Condiciones de Uso</a> y <a href="privacyPolicy.html" link="">Política de privacidad</a></label>
+                            </div>
+                        </li>
+                        <li>
                             <div>
                                 <p>¿Ya tienes una cuenta? <a href="login.html">Inicia sesión</a></p>
-                            </div>                            
+                            </div>
                         </li>
                     </ul>
                 </form>
@@ -125,6 +152,6 @@
                <a class="footer-links" href="faq.html">Preguntas Frecuntes</a>
               </div>              
             </div>            
-          </footer>    
+          </footer>  
     </body>
 </html>

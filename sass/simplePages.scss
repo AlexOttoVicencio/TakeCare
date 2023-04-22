@@ -59,3 +59,12 @@ span{
     padding-top: 2em;
     padding-bottom:2em;
 }
+
+ul {
+    list-style: none;
+}
+
+.is-invalid {
+    color: red;
+    display: none;
+}
