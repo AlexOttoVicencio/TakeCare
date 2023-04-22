@@ -57,4 +57,16 @@ span {
   padding-right: 5em;
   padding-top: 2em;
   padding-bottom: 2em;
+<<<<<<< HEAD
+=======
+}
+
+ul {
+  list-style: none;
+}
+
+.is-invalid {
+  color: red;
+  display: none;
+>>>>>>> dece3c6865ed564b9ad30220e1c1589a0207a203
 }/*# sourceMappingURL=simplePages.css.map */

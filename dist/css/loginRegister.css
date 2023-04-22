@@ -82,4 +82,12 @@ form {
 .footer-links {
   color: black;
   text-decoration: none;
+<<<<<<< HEAD
+=======
+}
+
+.is-invalid {
+  color: red;
+  display: none;
+>>>>>>> dece3c6865ed564b9ad30220e1c1589a0207a203
 }/*# sourceMappingURL=loginRegister.css.map */
