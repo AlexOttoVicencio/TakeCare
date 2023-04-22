@@ -1,5 +1,5 @@
 h1, h2, h3, h4, h5, h6, p, a {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -20,8 +20,6 @@ ul {
 }
 
 .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -31,14 +29,12 @@ ul {
 
 h1 {
   text-align: center;
-  color: #325a6e;
+  color: rgb(50, 90, 110);
   padding-bottom: 25px;
 }
 
 .form-group {
   padding: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -57,7 +53,7 @@ p {
   border: none;
   width: 100%;
   color: white;
-  background-color: #325a6e;
+  background-color: rgb(50, 90, 110);
   font-size: 20px;
   padding: 10px;
   margin: 10px;
@@ -86,5 +82,4 @@ form {
 .footer-links {
   color: black;
   text-decoration: none;
-}
-/*# sourceMappingURL=loginRegister.css.map */
+}/*# sourceMappingURL=loginRegister.css.map */

@@ -6,7 +6,7 @@ h5,
 h6,
 p,
 a {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .index-main {
@@ -57,5 +57,4 @@ span {
   padding-right: 5em;
   padding-top: 2em;
   padding-bottom: 2em;
-}
-/*# sourceMappingURL=simplePages.css.map */
+}/*# sourceMappingURL=simplePages.css.map */

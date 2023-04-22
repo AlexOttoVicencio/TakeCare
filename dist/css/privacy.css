@@ -1,6 +1,6 @@
 /*Css of landing page */
 h1, h2, h3, h4, h5, h6, p, a {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 h1 {
@@ -47,20 +47,14 @@ h1 {
   margin: auto;
   height: auto;
   width: 85%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   min-height: 60vh;
-  background-color: #fffdfd;
+  background-color: rgb(255, 253, 253);
   font-size: larger;
 }
 
 .intro {
   font-style: italic;
   font-size: large;
-}
-/*# sourceMappingURL=privacy.css.map */
+}/*# sourceMappingURL=privacy.css.map */

@@ -1,5 +1,5 @@
 h1, h2, h3, h4, h5, h6, p, a {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .index-main {
@@ -36,4 +36,9 @@ h1, h2, h3, h4, h5, h6, p, a {
   padding-top: 2em;
   padding-bottom: 2em;
 }
-/*# sourceMappingURL=style.css.map */
+
+.main-panel {
+  background-color: #F4F9F9;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}/*# sourceMappingURL=style.css.map */
