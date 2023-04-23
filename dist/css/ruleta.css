@@ -1,0 +1,70 @@
+#image-container {
+      width: 500px;
+      height: 300px;
+      position: relative;
+      left: 37%;
+      overflow: hidden;
+    }
+
+    #image-container img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+
+    #image-container img.active {
+      opacity: 1;
+    }
+
+    .button-container {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .button-container button {
+      font-size: 10px;
+      font-weight: bold;
+      color: white;
+      background-color: transparent;
+      padding: 200px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .button-container button:first-child {
+      margin-right: 10px;
+    }
+    
+    .zoom {
+      display: inline-block;
+      position: relative;
+    }
+
+    .zoom img {
+      display: block;
+    }
+
+    .zoom:hover img {
+      transform: scale(1.5);
+    }
+
+    .zoom:hover::after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 2px solid #000;
+      box-sizing: border-box;
+      pointer-events: none;
+    }
