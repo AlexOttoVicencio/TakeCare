@@ -14,15 +14,22 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 .index-button {
   margin: 3em;
+  justify-content: center;
 }
 
 .custom-button {
   background-color: #A4EBF3;
 }
-
 .main-footer {
   background-color: #AAAAAA;
   color: #F4F9F9;
+}
+
+.carousel img {
+  align-items: center;
+  max-width: 100%;
+  min-height: 150px;
+  height: auto;
 }
 
 .footer-links {
